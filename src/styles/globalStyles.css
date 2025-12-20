@@ -1,0 +1,51 @@
+html {
+  touch-action: pan-x pan-y;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+button {
+  &:hover {
+    opacity: 0.8;
+  }
+  &:disabled:hover {
+    opacity: 1;
+  }
+}
+
+body {
+  overscroll-behavior-y: contain;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #4c6ef57b, #15abbf6b);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #4c6ef57b, #15abbf6b);
+}
+
+.mantine-Select-option {
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+  }
+}

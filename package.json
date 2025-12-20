@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:https": "next dev --experimental-https",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "kubb generate"
+  },
+  "dependencies": {
+    "@kubb/cli": "^4.7.2",
+    "@kubb/core": "^4.7.2",
+    "@kubb/plugin-client": "^4.7.2",
+    "@kubb/plugin-oas": "^4.7.2",
+    "@kubb/plugin-react-query": "^4.7.2",
+    "@mantine/core": "^8.3.9",
+    "@mantine/form": "^8.3.9",
+    "@mantine/hooks": "^8.3.9",
+    "@tabler/icons-react": "^3.35.0",
+    "@tanstack/react-query": "^5.90.11",
+    "@tma.js/bridge": "^2.2.0",
+    "@tma.js/sdk-react": "^3.0.11",
+    "@tma.js/transformers": "^1.1.1",
+    "@tma.js/types": "^1.0.2",
+    "dotenv": "^17.2.3",
+    "eruda": "^3.0.1",
+    "next": "^15.5.9",
+    "next-intl": "^4.1.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.0.10",
+    "postcss": "^8",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5"
+  }
+}
